@@ -1,0 +1,28 @@
+$darkGry: #21232e;
+$white: #ffffff;
+
+$mainBg: $white;
+$mainTxt: #2c2f3c;
+$accent: #14a0c7;
+$footerBg: $darkGry;
+
+$itemsHeads: $white;
+$itemsTxt: #c0c3ce;
+$itemsBg: $darkGry;
+
+$actionBtnBg: #699900;
+$actionBtnTxt: $white;
+$actionBtnGrad: linear-gradient(45deg, #65940e,#2f5dd2);
+
+$fontPrime: 'Hind', sans-serif;
+$fontHeads: 'Source Sans Pro', sans-serif;
+
+$heroBg: '../img/m-h-day.jpg';
+
+$breakpoints: (
+  small: 767px,
+  medium: 992px,
+  large: 1200px
+);
+
+$contentLnHt: 1.6;

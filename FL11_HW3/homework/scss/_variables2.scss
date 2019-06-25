@@ -1,0 +1,28 @@
+$white: #ffffff;
+$darkGry: #3b3f50;
+
+$mainBg: #21232e;
+$accent: #ff4e33;
+$footerBg: $darkGry;
+$mainTxt: $white;
+
+$itemsHeads: $white;
+$itemsTxt: #d1d1d1;
+$itemsBg: $darkGry;
+
+$actionBtnBg: #e3ac00;
+$actionBtnTxt: $white;
+$actionBtnGrad: linear-gradient(45deg,#dda207, #932d52);
+
+$fontPrime: 'Fresca', sans-serif;
+$fontHeads: 'Source Sans Pro', sans-serif;
+
+$heroBg: '../img/m-h-night.jpg';
+
+$breakpoints: (
+  small: 767px,
+  medium: 992px,
+  large: 1200px
+);
+
+$contentLnHt: 1.7;
