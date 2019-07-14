@@ -4,3 +4,5 @@ function isSmaller(){
           secondEl = 1;
     return(elements[firstEl] < elements[secondEl]);
 }
+
+isSmaller(1,2);

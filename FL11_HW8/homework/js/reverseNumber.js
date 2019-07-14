@@ -9,3 +9,5 @@ function reverseargber(arg) {
       ) * Math.sign(arg)
     )                 
   }
+
+  reverseargber(-123);

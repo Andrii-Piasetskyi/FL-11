@@ -5,7 +5,6 @@ function isInteger(num){
     } else{
         return false;
     }
-    
 }
 
 isInteger(11.5);
