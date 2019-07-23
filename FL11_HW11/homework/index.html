@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Homework 11 - TODO Cat List</title>
+  <link rel="stylesheet" href="./assets/material-icons/material-icons.css">
+  <link rel="stylesheet" href="./assets/styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Lora:400,700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div id="root">
+    <section class="form-section">
+      <h1 class="section-title"><span>todo</span> Cat List</h1>
+      <form action="#" id="add-form" class="todo-form">
+        <div class="inp-wrapp">
+          <input id="add-inp" class="txt-inp task-inp" type="text" placeholder="Add new action">
+          <button type="submit" class="add-btn disbl">
+              <i class="material-icons add-ico">add</i> 
+          </button>
+        </div>
+      </form>
+      <form action="#" id="add-form2" class="todo-form">
+        <div class="inp-wrapp">
+          <input id="add-inp2" class="txt-inp task-inp" type="text" placeholder="Add new action">
+          <button type="submit" class="add-btn disbl">
+              <i class="material-icons add-ico">add</i> 
+          </button>
+        </div>
+      </form>
+    </section>
+    <section class="list-section">
+      <ul class="todo-lst">
+        <li class="todo-lst__item"></li>
+      </ul>
+    </section>
+  </div>
+
+  <script defer src="./src/app.js"></script>
+</body>
+</html>
